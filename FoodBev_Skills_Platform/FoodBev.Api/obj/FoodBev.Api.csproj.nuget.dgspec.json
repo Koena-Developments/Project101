@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\motsw\\Desktop\\project101\\FoodBev_Skills_Platform\\FoodBev.Api\\FoodBev.Api.csproj": {}
+    "C:\\Users\\Thabang\\Desktop\\Project101\\FoodBev_Skills_Platform\\FoodBev.Api\\FoodBev.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\motsw\\Desktop\\project101\\FoodBev_Skills_Platform\\FoodBev.Api\\FoodBev.Api.csproj": {
+    "C:\\Users\\Thabang\\Desktop\\Project101\\FoodBev_Skills_Platform\\FoodBev.Api\\FoodBev.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\motsw\\Desktop\\project101\\FoodBev_Skills_Platform\\FoodBev.Api\\FoodBev.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Thabang\\Desktop\\Project101\\FoodBev_Skills_Platform\\FoodBev.Api\\FoodBev.Api.csproj",
         "projectName": "FoodBev.Api",
-        "projectPath": "C:\\Users\\motsw\\Desktop\\project101\\FoodBev_Skills_Platform\\FoodBev.Api\\FoodBev.Api.csproj",
-        "packagesPath": "C:\\Users\\motsw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\motsw\\Desktop\\project101\\FoodBev_Skills_Platform\\FoodBev.Api\\obj\\",
+        "projectPath": "C:\\Users\\Thabang\\Desktop\\Project101\\FoodBev_Skills_Platform\\FoodBev.Api\\FoodBev.Api.csproj",
+        "packagesPath": "C:\\Users\\Thabang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Thabang\\Desktop\\Project101\\FoodBev_Skills_Platform\\FoodBev.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\motsw\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Thabang\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -44,9 +44,9 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[9.0.11, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -61,6 +61,10 @@
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
             }
           },
           "imports": [

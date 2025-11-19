@@ -12,3 +12,14 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
+
+
+
+
+
+------
+
+
+check for certification on uploaded documents
+
+if documents are not certified we should have a place where we can text the student and inform them (document is not compliant with reason)
