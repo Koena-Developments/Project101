@@ -1,0 +1,17 @@
+// tailwind.config.js
+export default {
+  content: [
+    // ... your content paths
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          500: '#8B5CF6', // Purple (Tailwind's indigo-500 alternative)
+          600: '#7C3AED',
+        }
+      }
+    },
+  },
+  plugins: [],
+}

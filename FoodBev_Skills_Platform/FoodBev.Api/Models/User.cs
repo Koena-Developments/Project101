@@ -1,4 +1,3 @@
-// FoodBev.Api/Models/User.cs
 using FoodBev.Api.Models;
 
 public class User
